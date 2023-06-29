@@ -1,0 +1,5 @@
+files:
+  - source: /**/*.json
+    translation: /%original_path%/../%two_letters_code%/%original_file_name%
+  - source: /**/*.resx
+    translation: /%original_path%/../%file_name%.%two_letters_code%.%file_extension%
