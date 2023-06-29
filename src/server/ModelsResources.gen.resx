@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RES_Display_ApplicationCore_ApprovalState" xml:space="preserve">
+    <value>Approval State</value>
+  </data>
+  <data name="RES_Display_ApplicationCore_Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="RES_Display_ApplicationCore_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="RES_Display_ApplicationCore_ExternalUrl" xml:space="preserve">
+    <value>External Url</value>
+  </data>
+  <data name="RES_Display_ApplicationCore_HomePage" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="RES_Display_ApplicationCore_Key" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="RES_Display_ApplicationCore_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="RES_Display_ApplicationCore_NotificationEndpoint" xml:space="preserve">
+    <value>Notification Endpoint</value>
+  </data>
+  <data name="RES_Display_ApplicationCore_OAuth" xml:space="preserve">
+    <value>O Auth</value>
+  </data>
+  <data name="RES_Display_ApplicationCore_PermissionKeys" xml:space="preserve">
+    <value>Permission Keys</value>
+  </data>
+  <data name="RES_Display_ApplicationCore_ProductKey" xml:space="preserve">
+    <value>Product Key</value>
+  </data>
+  <data name="RES_Display_ApplicationCore_Published" xml:space="preserve">
+    <value>Published</value>
+  </data>
+  <data name="RES_Display_ApplicationCore_PublisherKey" xml:space="preserve">
+    <value>Publisher Key</value>
+  </data>
+  <data name="RES_Display_ApplicationCore_PublisherName" xml:space="preserve">
+    <value>Publisher Name</value>
+  </data>
+  <data name="RES_Display_ApplicationCore_RejectedApprovalConditions" xml:space="preserve">
+    <value>Rejected Approval Conditions</value>
+  </data>
+  <data name="RES_Display_ApplicationCore_Subscriptions" xml:space="preserve">
+    <value>Subscriptions</value>
+  </data>
+  <data name="RES_Display_ApplicationCore_Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="RES_Display_ApplicationOAuth_BackgroundUri" xml:space="preserve">
+    <value>Background Uri</value>
+  </data>
+  <data name="RES_Display_ApplicationOAuth_LogoUri" xml:space="preserve">
+    <value>Logo Uri</value>
+  </data>
+  <data name="RES_Display_ApplicationOAuth_OAuthFlow" xml:space="preserve">
+    <value>O Auth Flow</value>
+  </data>
+  <data name="RES_Display_ApplicationOAuth_RedirectUri" xml:space="preserve">
+    <value>Redirect Uri</value>
+  </data>
+  <data name="RES_Display_ApplicationOAuth_Scopes" xml:space="preserve">
+    <value>Scopes</value>
+  </data>
+  <data name="RES_Display_ApplicationPublic_Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="RES_Display_ApplicationPublic_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="RES_Display_ApplicationPublic_ExternalUrl" xml:space="preserve">
+    <value>External Url</value>
+  </data>
+  <data name="RES_Display_ApplicationPublic_HomePage" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="RES_Display_ApplicationPublic_IsPreview" xml:space="preserve">
+    <value>Is Preview</value>
+  </data>
+  <data name="RES_Display_ApplicationPublic_Key" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="RES_Display_ApplicationPublic_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="RES_Display_ApplicationPublic_PublisherKey" xml:space="preserve">
+    <value>Publisher Key</value>
+  </data>
+  <data name="RES_Display_ApplicationPublic_PublisherName" xml:space="preserve">
+    <value>Publisher Name</value>
+  </data>
+  <data name="RES_Display_ApplicationPublic_Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="RES_Display_ApplicationSubscriptionHistory_AppKey" xml:space="preserve">
+    <value>App Key</value>
+  </data>
+  <data name="RES_Display_ApplicationSubscriptionHistory_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="RES_Display_ApplicationSubscriptionHistory_Subscribed" xml:space="preserve">
+    <value>Subscribed</value>
+  </data>
+  <data name="RES_Display_ApplicationSubscriptionHistory_SubscriptionAlias" xml:space="preserve">
+    <value>Subscription Alias</value>
+  </data>
+  <data name="RES_Display_ApplicationSubscriptionHistory_UserEmail" xml:space="preserve">
+    <value>User Email</value>
+  </data>
+  <data name="RES_Display_ApplicationSubscriptionHistory_UserId" xml:space="preserve">
+    <value>User Id</value>
+  </data>
+  <data name="RES_Display_ApplicationSubscriptionHistory_UserName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="RES_Display_ApprovalCondition_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="RES_Display_ApprovalCondition_Key" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="RES_Display_ApprovalCondition_ProductKey" xml:space="preserve">
+    <value>Product Key</value>
+  </data>
+  <data name="RES_Display_Bogus_ApplicationType" xml:space="preserve">
+    <value>Application Type</value>
+  </data>
+  <data name="RES_Display_Bogus_ImageType" xml:space="preserve">
+    <value>Image Type</value>
+  </data>
+  <data name="RES_Display_CloneSubscription_SubscriptionToClone" xml:space="preserve">
+    <value>Subscription To Clone</value>
+  </data>
+  <data name="RES_Display_CreateSubscription_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="RES_Display_CreateSubscription_ProductKey" xml:space="preserve">
+    <value>Product Key</value>
+  </data>
+  <data name="RES_Display_Developer_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="RES_Display_Developer_IsAdmin" xml:space="preserve">
+    <value>Is Admin</value>
+  </data>
+  <data name="RES_Display_Developer_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="RES_Display_Developer_PublisherKey" xml:space="preserve">
+    <value>Publisher Key</value>
+  </data>
+  <data name="RES_Display_Developer_State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="RES_Display_Developer_UserId" xml:space="preserve">
+    <value>UserId</value>
+  </data>
+  <data name="RES_Display_DeveloperEmailInvitation_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="RES_Display_DeveloperEmailInvitation_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="RES_Display_DeveloperEmailInvitation_PublisherKey" xml:space="preserve">
+    <value>Publisher Key</value>
+  </data>
+  <data name="RES_Display_DeveloperEmailInvitationResponse_Accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="RES_Display_DeveloperEmailInvitationResponse_PublisherKey" xml:space="preserve">
+    <value>Publisher Key</value>
+  </data>
+  <data name="RES_Display_GetDeveloperPublishersResponse_Developer" xml:space="preserve">
+    <value>Developer</value>
+  </data>
+  <data name="RES_Display_GetDeveloperPublishersResponse_Publishers" xml:space="preserve">
+    <value>Publishers</value>
+  </data>
+  <data name="RES_Display_ProductModuleScope_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="RES_Display_ProductModuleScope_Key" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="RES_Display_ProductModuleScope_ProductKey" xml:space="preserve">
+    <value>Product Key</value>
+  </data>
+  <data name="RES_Display_ProductModuleScope_Scopes" xml:space="preserve">
+    <value>Scopes</value>
+  </data>
+  <data name="RES_Display_Publisher_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="RES_Display_Publisher_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="RES_Display_Publisher_Homepage" xml:space="preserve">
+    <value>Homepage</value>
+  </data>
+  <data name="RES_Display_Publisher_Key" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="RES_Display_Publisher_LogoUrl" xml:space="preserve">
+    <value>Logo Url</value>
+  </data>
+  <data name="RES_Display_Publisher_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="RES_Display_Publisher_PartnerId" xml:space="preserve">
+    <value>Partner Id</value>
+  </data>
+  <data name="RES_Display_Subscription_AccountKey" xml:space="preserve">
+    <value>Account Key</value>
+  </data>
+  <data name="RES_Display_Subscription_Alias" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="RES_Display_Subscription_AppInstanceKey" xml:space="preserve">
+    <value>App Instance Key</value>
+  </data>
+  <data name="RES_Display_Subscription_BusinessPartner" xml:space="preserve">
+    <value>Business Partner</value>
+  </data>
+  <data name="RES_Display_Subscription_DaysLeft" xml:space="preserve">
+    <value>Days Left</value>
+  </data>
+  <data name="RES_Display_Subscription_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="RES_Display_Subscription_Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="RES_Display_Subscription_Key" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="RES_Display_Subscription_State" xml:space="preserve">
+    <value>State</value>
+  </data>
+</root>

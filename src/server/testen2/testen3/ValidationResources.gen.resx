@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RES_Error_Application_Bogus_Test_Required" xml:space="preserve">
+    <value>The Test parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_Create_Application_Required" xml:space="preserve">
+    <value>The Application parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_Delete_ApplicationKey_Required" xml:space="preserve">
+    <value>The Application Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_DeleteApplicationImage_ApplicationKey_Required" xml:space="preserve">
+    <value>The Application Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_DeleteApplicationImage_ApplicationType_Required" xml:space="preserve">
+    <value>The Application Type parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_DeleteApplicationImage_ImageType_Required" xml:space="preserve">
+    <value>The Image Type parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_GetApplication_ApplicationKey_Required" xml:space="preserve">
+    <value>The Application Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_GetApplicationDraft_ApplicationKey_Required" xml:space="preserve">
+    <value>The Application Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_GetApplicationPreview_ApplicationKey_Required" xml:space="preserve">
+    <value>The Application Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_Publish_ApplicationKey_Required" xml:space="preserve">
+    <value>The Application Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_ResetOAuthSecret_ApplicationKey_Required" xml:space="preserve">
+    <value>The Application Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_SubmitApplicationForApproval_ApplicationKey_Required" xml:space="preserve">
+    <value>The Application Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_Subscribe_ApplicationKey_Required" xml:space="preserve">
+    <value>The Application Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_Subscribe_SubscriptionAlias_Required" xml:space="preserve">
+    <value>The Subscription Alias parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_Unsubscribe_ApplicationKey_Required" xml:space="preserve">
+    <value>The Application Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_Unsubscribe_SubscriptionAlias_Required" xml:space="preserve">
+    <value>The Subscription Alias parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_Update_Application_Required" xml:space="preserve">
+    <value>The Application parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_Update_ApplicationKey_Required" xml:space="preserve">
+    <value>The Application Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_UploadApplicationImage_ApplicationKey_Required" xml:space="preserve">
+    <value>The Application Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_UploadApplicationImage_ApplicationType_Required" xml:space="preserve">
+    <value>The Application Type parameter is required.</value>
+  </data>
+  <data name="RES_Error_Application_UploadApplicationImage_ImageType_Required" xml:space="preserve">
+    <value>The Image Type parameter is required.</value>
+  </data>
+  <data name="RES_Error_ApprovalConditions_CreateApprovalCondition_ApprovalCondition_Required" xml:space="preserve">
+    <value>The Approval Condition parameter is required.</value>
+  </data>
+  <data name="RES_Error_ApprovalConditions_DeleteApprovalCondition_Key_Required" xml:space="preserve">
+    <value>The Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_ApprovalConditions_DeleteApprovalCondition_ProductKey_Required" xml:space="preserve">
+    <value>The Product Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Developers_AcceptPublisherInvite_DeveloperEmailInvitationResponse_Required" xml:space="preserve">
+    <value>The Developer Email Invitation Response parameter is required.</value>
+  </data>
+  <data name="RES_Error_Developers_DeleteDeveloper_DeveloperUserId_Required" xml:space="preserve">
+    <value>The Developer User Id parameter is required.</value>
+  </data>
+  <data name="RES_Error_Developers_DeleteDeveloper_PublisherKey_Required" xml:space="preserve">
+    <value>The Publisher Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Developers_GetDeveloper_DeveloperUserId_Required" xml:space="preserve">
+    <value>The Developer User Id parameter is required.</value>
+  </data>
+  <data name="RES_Error_Developers_GetDeveloper_PublisherKey_Required" xml:space="preserve">
+    <value>The Publisher Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Developers_UpdateDeveloper_Developer_Required" xml:space="preserve">
+    <value>The Developer parameter is required.</value>
+  </data>
+  <data name="RES_Error_Developers_UpdateDeveloper_DeveloperUserId_Required" xml:space="preserve">
+    <value>The Developer User Id parameter is required.</value>
+  </data>
+  <data name="RES_Error_Developers_UpdateDeveloper_PublisherKey_Required" xml:space="preserve">
+    <value>The Publisher Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Management_CreateProductModuleScope_ProductModuleScope_Required" xml:space="preserve">
+    <value>The Product Module Scope parameter is required.</value>
+  </data>
+  <data name="RES_Error_Management_DeleteProductModuleScopes_ProductModuleScopeKey_Required" xml:space="preserve">
+    <value>The Product Module Scope Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Management_SubmitApplicationApproval_ApplicationKey_Required" xml:space="preserve">
+    <value>The Application Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Management_UnpublishApp_ApplicationKey_Required" xml:space="preserve">
+    <value>The Application Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Management_UnpublishApp_ApprovalKeys_Required" xml:space="preserve">
+    <value>The Approval Keys parameter contains at least one null item.</value>
+  </data>
+  <data name="RES_Error_Management_UpdateProductModuleScope_ProductModuleScope_Required" xml:space="preserve">
+    <value>The Product Module Scope parameter is required.</value>
+  </data>
+  <data name="RES_Error_Management_UpdateProductModuleScope_ProductModuleScopeKey_Required" xml:space="preserve">
+    <value>The Product Module Scope Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Partners_CloneClientSubscription_SubscriptionToClone_Required" xml:space="preserve">
+    <value>The Subscription To Clone parameter is required.</value>
+  </data>
+  <data name="RES_Error_Partners_CreatePartnerSubscription_CreateSubscription_Required" xml:space="preserve">
+    <value>The Create Subscription parameter is required.</value>
+  </data>
+  <data name="RES_Error_Partners_DeletePartnerDemoSubscritpion_ProductKey_Required" xml:space="preserve">
+    <value>The Product Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Partners_DeletePartnerDemoSubscritpion_SubscriptionAlias_Required" xml:space="preserve">
+    <value>The Subscription Alias parameter is required.</value>
+  </data>
+  <data name="RES_Error_Publishers_CreatePublisher_Publisher_Required" xml:space="preserve">
+    <value>The Publisher parameter is required.</value>
+  </data>
+  <data name="RES_Error_Publishers_DeletePublisher_PublisherKey_Required" xml:space="preserve">
+    <value>The Publisher Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Publishers_DeletePublisherImage_ImageType_Required" xml:space="preserve">
+    <value>The Image Type parameter is required.</value>
+  </data>
+  <data name="RES_Error_Publishers_DeletePublisherImage_PublisherKey_Required" xml:space="preserve">
+    <value>The Publisher Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Publishers_GetPublisher_PublisherKey_Required" xml:space="preserve">
+    <value>The Publisher Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Publishers_GetPublisherApplications_PublisherKey_Required" xml:space="preserve">
+    <value>The Publisher Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Publishers_GetPublisherDevelopers_PublisherKey_Required" xml:space="preserve">
+    <value>The Publisher Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Publishers_GetPublishers_Skip_GreaterThan" xml:space="preserve">
+    <value>The Skip parameter must be greater than {0}.</value>
+  </data>
+  <data name="RES_Error_Publishers_GetPublishers_Top_GreaterThan" xml:space="preserve">
+    <value>The Top parameter must be greater than {0}.</value>
+  </data>
+  <data name="RES_Error_Publishers_GetPublishers_Top_LessThan" xml:space="preserve">
+    <value>The Top parameter must be less than {0}.</value>
+  </data>
+  <data name="RES_Error_Publishers_InviteDeveloper_DeveloperEmailInvitation_Required" xml:space="preserve">
+    <value>The Developer Email Invitation parameter is required.</value>
+  </data>
+  <data name="RES_Error_Publishers_InviteDeveloper_PublisherKey_Required" xml:space="preserve">
+    <value>The Publisher Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Publishers_UpdatePublisher_Publisher_Required" xml:space="preserve">
+    <value>The Publisher parameter is required.</value>
+  </data>
+  <data name="RES_Error_Publishers_UpdatePublisher_PublisherKey_Required" xml:space="preserve">
+    <value>The Publisher Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Publishers_UploadPublisherImage_ImageType_Required" xml:space="preserve">
+    <value>The Image Type parameter is required.</value>
+  </data>
+  <data name="RES_Error_Publishers_UploadPublisherImage_PublisherKey_Required" xml:space="preserve">
+    <value>The Publisher Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_RequestArgsInvalid" xml:space="preserve">
+    <value>The request arguments are invalid.</value>
+  </data>
+  <data name="RES_Error_Store_GetApplications_Skip_GreaterThan" xml:space="preserve">
+    <value>The Skip parameter must be greater than {0}.</value>
+  </data>
+  <data name="RES_Error_Store_GetApplications_Top_GreaterThan" xml:space="preserve">
+    <value>The Top parameter must be greater than {0}.</value>
+  </data>
+  <data name="RES_Error_Store_GetApplications_Top_LessThan" xml:space="preserve">
+    <value>The Top parameter must be less than {0}.</value>
+  </data>
+  <data name="RES_Error_Store_GetPublicApplication_ApplicationKey_Required" xml:space="preserve">
+    <value>The Application Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Store_Product_Required" xml:space="preserve">
+    <value>The Product parameter is required.</value>
+  </data>
+  <data name="RES_Error_Subscriptions_CreateSubscription_CreateSubscription_Required" xml:space="preserve">
+    <value>The Create Subscription parameter is required.</value>
+  </data>
+  <data name="RES_Error_Subscriptions_DeleteSubscription_SubscriptionAlias_Required" xml:space="preserve">
+    <value>The Subscription Alias parameter is required.</value>
+  </data>
+  <data name="RES_Error_Subscriptions_Get_ProductKey_Required" xml:space="preserve">
+    <value>The Product Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Subscriptions_GetSubscriptionApplications_ProductKey_Required" xml:space="preserve">
+    <value>The Product Key parameter is required.</value>
+  </data>
+  <data name="RES_Error_Subscriptions_GetSubscriptionApplications_SubscriptionAlias_Required" xml:space="preserve">
+    <value>The Subscription Alias parameter is required.</value>
+  </data>
+</root>

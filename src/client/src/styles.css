@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "pollen";
+  src: url("assets/icons/pollen.eot?tlxm9z");
+  src: url("assets/icons/pollen.eot?tlxm9z#iefix") format("embedded-opentype"),
+    url("assets/icons/pollen.woff2?tlxm9z") format("woff2"),
+    url("assets/icons/pollen.ttf?tlxm9z") format("truetype"),
+    url("assets/icons/pollen.woff?tlxm9z") format("woff"),
+    url("assets/icons/pollen.svg?tlxm9z#pollen") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("assets/fonts/opensans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("assets/fonts/opensans/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("assets/fonts/roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+[class^="ti-"],
+[class*=" ti-"] {
+  font-family: "pollen" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: #edeff5;
+  scrollbar-color: #a3aabc #0000;
+  scrollbar-width: thin;
+  line-height: unset;
+  overflow: hidden;
+}
+
+.ti-ux-apps:before {
+  content: "\e913";
+}
+
+.ti-ux-dashboard-outline:before {
+  content: "\e92c";
+}
+
+.ti-ux-fiscalendar-fill:before {
+  content: "\e92f";
+}
+
+.ti-ux-fiscalendar-outline:before {
+  content: "\e930";
+}
+
+.ti-ux-calendar:before {
+  content: "\e93e";
+}
+
+.ti-ux-big-arrow-left-line:before {
+  content: "\e901";
+}
+
+.ti-ux-list-view:before {
+  content: "\e939";
+}
+
+.ti-ux-card-view:before {
+  content: "\e936";
+}
+
+.ti-ux-power-off:before {
+  content: "\e682";
+}
+
+.ti-ux-arrows-vertical:before {
+  content: "\e657";
+}
+
+.ti-ux-chevron-down:before {
+  content: "\e64b";
+}
+
+.ti-ux-chevron-up:before {
+	content: '\e648';
+}
+
+.ti-ux-forbidden:before {
+  content: "\e94a";
+}
+
+.ti-ux-success:before {
+  content: "\e979";
+}
+
+.ti-ux-close:before {
+  content: "\e646";
+}
+
+.ti-ux-trending-right:before {
+	content: '\e99f';
+}
